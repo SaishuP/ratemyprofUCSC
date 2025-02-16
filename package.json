@@ -1,6 +1,14 @@
 {
   "name": "ratemyprofessor-api",
-  "keywords": ["ratemyprofessor", "rmp", "professor", "rate my professor", "rate", "api", "graphql"],
+  "keywords": [
+    "ratemyprofessor",
+    "rmp",
+    "professor",
+    "rate my professor",
+    "rate",
+    "api",
+    "graphql"
+  ],
   "version": "1.0.1",
   "description": " A wrapper for the Rate My Professor (RMP) GraphQL database",
   "main": "dist/index.js",
@@ -22,5 +30,8 @@
   "devDependencies": {
     "@types/node": "^22.5.0",
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
   }
 }
